@@ -1,0 +1,51 @@
+<web-app id = "WebApp_ID" version = "2.4"
+         xmlns = "http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation = "http://java.sun.com/xml/ns/j2ee
+   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <context-param>
+    <param-name>NumItemsOnOnePage</param-name>
+    <param-value>10</param-value>
+  </context-param>
+
+  <display-name>LCS</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- listener load WEB-INF\applicationContext.xml-->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  <web-resource-collection>
+    <web-resource-name>Protected Area</web-resource-name>
+    <!-- Define the context-relative URL(s) to be protected -->
+    <url-pattern>/css/*</url-pattern>
+    <url-pattern>/js/*</url-pattern>
+    <url-pattern>/images/*</url-pattern>
+  </web-resource-collection>
+
+  <servlet>
+    <servlet-name>LCS</servlet-name>
+    <servlet-class>
+      org.springframework.web.servlet.DispatcherServlet
+    </servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:springmvc.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LCS</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+  <!-- application context configuration location -->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
+
+</web-app>

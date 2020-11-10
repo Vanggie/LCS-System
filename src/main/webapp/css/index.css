@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+body
+{
+	background-color:black;
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background: #fafafa url(../images/bghome.jpg) no-repeat 100% 0;
+}
+#webname
+{
+   text-align:center;
+   margin-left:40%;
+   margin-top:200px;
+   border:0px;
+   color:green;
+   font-size:2em;
+   width:20%;
+   height:30px;
+   font-family:times new roman;
+   font-style:italic;
+}
+table[id=loginform]
+{
+   width:20%;
+   margin-left:40%;
+   
+}
+
+
+table[id=loginform] tbody tr td
+{
+  
+
+  margin-top:2%;
+  padding:2% 2% 2% 2%;
+  
+  
+}
+
+table[id=loginform] tbody tr td
+{
+  
+  margin-left:2%;
+  margin-top:5%;
+  width:20%;
+  
+}
+
+#username
+{
+  width:100%;
+  height:31px;
+  font-size:21px; 
+  font-family:times new roman;
+  color:#c0c0c0;
+}
+#password
+{
+   width:100%;
+   height:31px;
+   font-size:21px; 
+   font-family:times new roman;
+   color:#c0c0c0;
+}
+
+
+
+button#login
+{
+  width:101.2%;
+  height:31px;
+  background-color:#529ECC;
+}
+button#signup
+{
+  width:101.2%;
+  height:31px;
+  background-color:#C9D0D1;
+  opacity:0.6;
+}
+
+button#message
+{
+  width:101.2%;
+  height:31px;
+  background-color:#C9D0D1;
+  opacity:0.6;
+}

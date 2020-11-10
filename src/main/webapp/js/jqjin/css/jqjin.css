@@ -1,0 +1,73 @@
+.window-message
+{  
+	width:200px;
+	position:absolute;
+	text-align:center;
+	font-size:20px;
+	font-family:times new roman;
+	border:solid gray 2px;
+	padding:0 0 0 0;
+	word-break:break-all;
+	background-color:white;
+}
+.window-message .title
+{   
+	background-color:#019F95;
+	padding:5px 5px 5px 5px;
+	font-weight:bold;
+	word-break:break-all
+}
+.window-message .title span:nth-of-type(2)
+{   padding:1px 1px 1px 1px;
+	background-color:gray;
+	margin-top:-5px;
+	margin-right:-5px;
+	float:right;
+	font-size:26px;
+	font-family:arial;
+	width:28px;
+	cursor:pointer;
+}
+.window-message .content
+{   
+	background-color:white;
+	text-align:center;
+	padding:20px 20px 20px 20px;
+	word-break:break-all;
+}
+.window-tips
+{   
+	background-color:transparent;
+	position:absolute;
+	left:40%;
+	top:20%;
+	padding:none;
+	border:none;
+}
+.window-tips-content
+{   
+	background-color:#019F95;
+	text-align:center;
+	font-size:16px;
+	font-family:arial;
+	padding:5px 5px 5px 5px;
+	border:none;
+	margin:none;
+	left:40%;
+	top:20%;
+	float:left;
+}
+.window-tips-arrow
+{
+	width:0.0000000001px;
+	height:0.0000000001px;
+	padding:none;
+	border-width:5px 5px 0px 5px;
+	border-style:solid;
+    border-color:transparent #019F95 transparent transparent;
+	float:left;
+	margin-top:5px;
+	
+}
+
+/*Frame */

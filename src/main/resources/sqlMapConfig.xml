@@ -1,0 +1,9 @@
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <mappers>
+        <!-- 通过resource引用mapper的映射文件 -->
+        <package name="com.lcs.dao"/>
+    </mappers>
+</configuration>

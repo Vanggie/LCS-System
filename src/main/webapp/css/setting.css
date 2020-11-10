@@ -1,0 +1,447 @@
+#hd-container{
+         width:960px;
+         margin:30px auto;
+         height: 133px;
+         border: 1px solid #d3dfdf;
+         background: #fafafa url(../images/personal-header.jpg) no-repeat 100% 0;
+         color: #069;
+}
+#spaceInfoShow{
+    padding: 20px 0 0 30px;
+    line-height: 115%;
+    font-size: 18px;
+    float:left;
+}
+#nav
+{
+    height: auto;
+    bottom: 0;
+    background: transparent none;
+    bottom: 10px;
+    float:left;
+    width:100%;
+}
+#nav ul{
+    float:left;
+}
+#nav ul li{
+    margin-right: 1px;
+    padding: 0 6px;
+    border: none;
+    height: 30px;
+    font-size:14px;
+    list-style:none;
+    font-weight:700;
+    display: inline;
+    text-align: -webkit-match-parent;
+    margin:0;
+}
+#nav ul li a{
+    text-decoration:none;
+}
+#nav ul li a:hover{
+    text-decoration:underline;
+    color:green;
+    cursor:hand;
+}
+#mysetting-container{
+          width:960px;
+          margin:30px auto;
+          min-height: 200px;
+          color: #069;
+          background-color:#F8F8F8;
+          overflow:hidden;
+          zoom:1;
+}
+
+#mysetting-container-left{
+          width:240px;
+          height:100%;
+          color: #069;
+          padding:0px 5px 0px 0px;
+          box-sizing: border-box;
+          float:left;
+}
+.mysetting-container-item{
+          width:100%;
+          color: #069;
+          border:solid #DDDDDD 1px;
+          margin-bottom:10px;
+          height:100%;
+}
+
+#mysetting-menu-list{
+    list-style:none;
+    color: #069;
+    padding-inline-start: 0px;
+}
+#mysetting-menu-list li{
+    font-size:15px;
+    font-weight:700;
+    padding:10px 0px 10px 10px;
+}
+#mysetting-container-title{
+    font-size:20px;
+    font-weight:700;
+    background-color:#F2F6F7;
+    padding:4px 10px 10px 10px;
+}
+
+#mysetting-menu-list li{
+    margin:4px 0px 4px 0px;
+    border-bottom:solid gray 0.3px;
+}
+#mysetting-menu-list li:nth-of-type(3){
+    border-bottom:none;
+}
+#mysetting-menu-list li a{
+    font-size:15px;
+    font-weight:500;
+    text-decoration:none;
+    color:#069;
+}
+#mysetting-menu-list li a:hover{
+    text-decoration:underline;
+    color:green;
+}
+#mysetting-container-right{
+          width:720px;
+          min-height: 300px;
+          color: #069;
+          float:left;
+          padding:0px 5px 0px 0px;
+          box-sizing: border-box;
+}
+#current-face-photo
+{
+    width:100%;
+}
+
+#current-face-photo caption,
+#current-face-photo tbody,
+#new-face-photo caption,
+#new-face-photo tbody,
+{
+    float:left;
+}
+#current-face-photo caption h2,
+#new-face-photo caption h2
+{
+   text-align: left;
+   margin-block-start:10px;
+   margin-block-end:0px;
+   font-size:20px;
+
+}
+#current-face-photo caption p,
+#new-face-photo caption p
+{
+   text-align: left;
+   margin-block-start:5px;
+   font-size:15px;
+}
+.uploading{
+    display:none;
+}
+
+.saya_avatar_box
+{
+        position: relative;
+        width: 425px;
+        height: 272px;
+        border: 1px solid #CCC;
+        border-radius: 5px;
+        background: #E8F0F7;
+}
+.uploading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    width: 425px;
+    height: 272px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 272px;
+    color: #FFF;
+    z-index: 20;
+    display: none;
+}
+.zoomBar {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    width: 80px;
+    height: 6px;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    box-shadow: 0px -2px 2px rgba(204,204,204,0.8) inset;
+    background: #FFF;
+    display: none;
+    z-index: 10;
+}
+.zoomControl {
+    width: 0;
+    height: 0;
+    border-width: 0 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent rgb(77,134,191);
+    position: absolute;
+    left: -8px;
+    top: -1px;
+    cursor: pointer;
+}
+.mark
+{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 10px;
+    top: 10px;
+    border: 1px dashed #000;
+    cursor: move;
+    box-shadow: 0px 0px 2px rgba(255,255,255,0.9) inset, 0px 0px 2px rgba(255,255,255,0.9);
+    display: none;
+    z-index: 12;
+}
+.clipround {
+    width: 98px;
+    height: 100px;
+    border: 1px dashed #000;
+    box-shadow: 0px 0px 2px rgba(255,255,255,0.9) inset, 0px 0px 2px rgba(255,255,255,0.9);
+    border-radius: 50%;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+.rdcontrol {
+    position: absolute;
+    cursor: nw-resize;
+    width: 4px;
+    height: 4px;
+    border: 1px solid #000;
+    bottom: -3px;
+    right: -3px;
+    background: #FFF;
+}
+.saya_canvas3 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #CCC;
+    display: none;
+    z-index: 10;
+}
+.saya_canvas_1{
+    cursor:hand;
+}
+.saya_canvas_1:hover .tooltip-canvas-1{
+    visibility: visible;
+    position:absolute;
+    left:10px;
+    top:10px;
+    font-size:15px;
+}
+.beforeselector{
+    width: 425px;
+    height: 272px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    line-height: 272px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 10;
+    font-size: 16px;
+}
+#uploadavatarbtn{
+    height: 65px;
+    width: 80px;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+    line-height: 65px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+    z-index: 10;
+    cursor: pointer;
+    background: #d5ddeb;
+    background-image: -webkit-linear-gradient(top, #d5ddeb, #27b21c);
+    background-image: -moz-linear-gradient(top, #d5ddeb, #27b21c);
+    background-image: -ms-linear-gradient(top, #d5ddeb, #27b21c);
+    background-image: -o-linear-gradient(top, #d5ddeb, #27b21c);
+    background-image: linear-gradient(to bottom, #d5ddeb, #27b21c);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 0px 1px 0px #283966;
+    -webkit-box-shadow: inset 0px 0px 0px 2px #abe1bb;
+    -moz-box-shadow: inset 0px 0px 0px 2px #abe1bb;
+    box-shadow: inset 0px 0px 0px 2px #abe1bb;
+    color: #ffffff;
+    font-size: 16px;
+    border: solid #55964e 1px;
+}
+.reupload {
+    height: 65px;
+    width: 80px;
+    bottom: 85px;
+    right: 10px;
+    position: absolute;
+    line-height: 65px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 10;
+    cursor: pointer;
+    background: #eaebd5;
+    background-image: -webkit-linear-gradient(top, #eaebd5, #ea9209);
+    background-image: -moz-linear-gradient(top, #eaebd5, #ea9209);
+    background-image: -ms-linear-gradient(top, #eaebd5, #ea9209);
+    background-image: -o-linear-gradient(top, #eaebd5, #ea9209);
+    background-image: linear-gradient(to bottom, #eaebd5, #ea9209);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 0px 1px 0px #283966;
+    -webkit-box-shadow: inset 0px 0px 0px 2px #e6e4a2;
+    -moz-box-shadow: inset 0px 0px 0px 2px #e6e4a2;
+    box-shadow: inset 0px 0px 0px 2px #e6e4a2;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    border: solid #eba831 1px;
+}
+
+#uploadfaceimage.is-dragover {
+  background-color: grey;
+}
+.has-advanced-upload .saya_avatar_box{
+  background-color: white;
+  outline: 2px dashed black;
+  outline-offset: -10px;
+}
+
+.is-uploading{
+  visibility: none;
+}
+.is-uploading .uploading {
+  display: block;
+}
+
+
+.mysetting-credential-table{
+   width:100%;
+   font: 12px/1.5 'Microsoft Yahei',Tahoma,STXihei,'Simsun';
+   color: #555;
+   margin-left:30px;
+}
+.mysetting-credential-table th
+{
+    padding-top: 9px;
+    padding-right: 5px;
+    width: 130px;
+    text-align:left;
+}
+.mysetting-credential-table td
+{
+    padding-top: 9px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+}
+.credential-save{
+    padding:5px 5px 5px 5px;
+    border-color: #235994;
+    background-color: #2B82A8;
+    background-position: 0 -48px;
+    color: #fff!important;
+    color:white;
+    -moz-box-shadow: inset 0px 0px 0px 2px #2B82A8;
+    box-shadow: inset 0px 0px 0px 2px #2B82A8;
+    font-family: Arial;
+    border: solid #2B82A8 1px;
+
+}
+.credential-save:hover{
+    cursor:hand;
+}
+.mysetting-password-head
+{
+    margin-bottom: 10px!important;
+    border-bottom: 1px dashed #a7b1b4;
+    font-size:20px;
+}
+
+.tfm th {
+    padding-top: 9px;
+    padding-right: 5px;
+    width: 130px;
+}
+.tfm caption, .tfm th, .tfm td {
+    vertical-align: top;
+    padding: 7px 0;
+}
+caption, th {
+    text-align: left;
+    font-weight: 400;
+}
+
+.tfm .pt, .tfm .px {
+    margin-right: 3px;
+    width: 330px;
+}
+.px {
+    height: 17px;
+}
+.px, .pt {
+    padding: 2px 4px;
+    line-height: 17px;
+}
+.px, .pt, .ps, select {
+    border: 1px solid;
+    border-color: #848484 #e0e0e0 #e0e0e0 #848484;
+    background: #fff url(../../static/image/common/px.png) repeat-x 0 0;
+    color: ;
+}
+.tfm .d {
+    clear: both;
+    margin: 5px 0;
+    color: #999;
+}
+.pnc, a.pnc, .tb .o {
+    border-color: #067296;
+}
+.pn, .tb .o, .tb .o a {
+    background-image: url(../../template/hux_simple/images/pn.png);
+}
+.pnc, a.pnc {
+    border-color: #235994;
+    background-color: #06c;
+    background-position: 0 -48px;
+    color: #06c;
+    padding:5px 5px 5px 5px;
+}
+.pn {
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 0;
+    height: 23px;
+    border: 1px solid #999;
+    background: #e5e5e5 url(../../static/image/common/pn.png) repeat-x 0 0;
+    cursor: pointer;
+    -moz-box-shadow: 0 1px 0 #e5e5e5;
+    -webkit-box-shadow: 0 1px 0 #e5e5e5;
+    box-shadow: 0 1px 0 #e5e5e5;
+    padding:5px 5px 5px 5px;
+}

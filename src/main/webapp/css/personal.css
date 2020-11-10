@@ -1,0 +1,181 @@
+#hd-container{
+         width:960px;
+         margin:30px auto;
+         height: 133px;
+         border: 1px solid #d3dfdf;
+         background: #fafafa url(../images/personal-header.jpg) no-repeat 100% 0;
+         color: #069;
+}
+#spaceInfoShow{
+    padding: 20px 0 0 30px;
+    line-height: 115%;
+    font-size: 18px;
+    float:left;
+}
+#nav
+{
+    height: auto;
+    bottom: 0;
+    background: transparent none;
+    bottom: 10px;
+    float:left;
+    width:100%;
+}
+#nav ul{
+    float:left;
+}
+#nav ul li{
+    margin-right: 1px;
+    padding: 0 6px;
+    border: none;
+    height: 30px;
+    font-size:14px;
+    list-style:none;
+    font-weight:700;
+    display: inline;
+    text-align: -webkit-match-parent;
+    margin:0;
+}
+#nav ul li a{
+    text-decoration:none;
+    color: #069;
+}
+#nav ul li a:hover{
+    text-decoration:underline;
+    color:green;
+    cursor:hand;
+}
+#myspace-container{
+          width:960px;
+          margin:30px auto;
+          min-height: 300px;
+          color: #069;
+          background-color:#F8F8F8;
+          overflow:hidden;
+          zoom:1;
+}
+
+#myspace-container-left{
+          width:240px;
+          min-height: 300px;
+          color: #069;
+          padding:0px 5px 0px 0px;
+          box-sizing: border-box;
+          float:left;
+}
+.myspace-container-item{
+          width:100%;
+          color: #069;
+          border:solid #DDDDDD 1px;
+          margin-bottom:10px;
+}
+#myspace-container-title{
+    font-size:14px;
+    font-weight:700;
+    background-color:#F2F6F7;
+    padding:4px 10px 10px 10px;
+}
+#profile-img-container{
+    background-color:white;
+    margin:3px 30px 5px 30px;
+
+}
+#profile-img-container img{
+     width:180px;
+     height:auto;
+}
+#profile-img-container ul,
+#myproject-list-container ul,
+#mystatus-list-container ul,
+#myhistory-list-container ul
+{
+     width:180px;
+     height:auto;
+     padding-inline-start: 0px;
+     list-style-position: outside;
+}
+#profile-img-container li
+{
+     list-type:none;
+     padding:0px;
+     display:inline-block;
+     list-style-position: inside;
+}
+#myproject-list-container ul li,
+#mystatus-list-container ul li,
+#myhistory-list-container ul li,
+{
+     display:inline-block;
+     list-style-position: inside;
+     text-indent: -1em;
+     padding-left: 1em;
+}
+
+#profile-edit-list li a,
+#myproject-edit-list li a,
+#mystatus-list-container li a,
+#myhistory-list-container li a
+{
+     padding: 2px 0 2px 20px;
+     background-position: 0 50%;
+     background-repeat: no-repeat;;
+     text-decoration:none;
+     font-size:14px;
+}
+#profile-edit-list li a:hover,
+#myproject-edit-list li a:hover,
+#mystatus-list-container li a:hover,
+#myhistory-list-container li a:hover
+{
+     cursor:hand;
+     text-decoration:underline;
+     color:green;
+}
+#edit-face a
+{
+     background:url(../images/editface.gif);
+}
+#edit-credentials a
+{
+     background:url(../images/editcredentials.gif);
+}
+#myspace-container-middle{
+          width:480px;
+          min-height: 300px;
+          color: #069;
+          float:left;
+          padding:0px 5px 0px 0px;
+          box-sizing: border-box;
+}
+#edit-my-credentials a{
+    font-size:12px;
+    font-weight:500;
+    text-decoration:none;
+}
+#edit-my-credentials a:hover{
+    text-decoration:underline;
+    color:green;
+}
+#my-credentials-content ul{
+    list-style:none;
+    padding-inline-start: 10px;
+}
+#my-credentials-content ul li em{
+    float: left;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-style:normal;
+    font-family:Arial;
+}
+#my-credentials-content ul li{
+    margin-bottom:5px;
+}
+#myspace-container-right{
+          width:240px;
+          min-height: 300px;
+          color: #069;
+          float:left;
+          padding:0px 5px 0px 0px;
+          box-sizing: border-box;
+}

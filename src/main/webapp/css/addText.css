@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+body{
+	text-align:center;
+	margin: 0px;
+}
+#title{
+    background-color: #F2F6F7;
+    margin:0px;
+    padding:5px 5px 5px 5px;
+}
+#form{
+
+	margin:4px auto;
+	width:95%;
+	text-align:left;
+	
+}
+
+.hd{
+	margin-left:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	width:20%;
+	float:left;
+	height:20px;
+}
+.content{
+	width:80%;
+	height: 20px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#projecttext{
+    width:100%;
+}
+#submit,#cancel,#selectFile{
+	    height: 28px;
+        width: 60px;
+        position: relative;
+        line-height: 5px;
+        text-align: center;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        z-index: 10;
+        cursor: pointer;
+        background:  #F2F6F7;
+        background-image: -webkit-linear-gradient(top, #eaebd5, #ea9209);
+        background-image: -moz-linear-gradient(top, #eaebd5, #ea9209);
+        background-image: -ms-linear-gradient(top, #eaebd5, #ea9209);
+        background-image: -o-linear-gradient(top, #eaebd5, #ea9209);
+        background-image: linear-gradient(to bottom, #F2F6F7, #AEDCE6);
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 3px;
+        -webkit-box-shadow: inset 0px 0px 0px 2px #F2F6F7;
+        -moz-box-shadow: inset 0px 0px 0px 2px #F2F6F7;
+        box-shadow: inset 0px 0px 0px 2px #F2F6F7;
+        font-family: Arial;
+        color: black;
+        font-size: 14px;
+        border: solid #AEDCE6 1px;
+}
+#selectFile{
+       width: 120px;
+       margin:0px;
+       padding:0px;
+       text-align:center;
+}
+
+#progress-wrp, #message{
+  border: 1px solid #0099CC;
+  padding: 1px;
+  position: relative;
+  height: 30px;
+  width: 100%;
+  margin-top:4px;
+  margin-left:0px;
+  border-radius: 3px;
+  text-align: left;
+  background: #fff;
+  box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.12);
+}
+#message{
+  border:none;
+}
+#progress-wrp .progress-bar {
+  height: 100%;
+  border-radius: 3px;
+  background-color: #f39ac7;
+  width: 0;
+  box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.11);
+}
+
+#progress-wrp .status {
+  top: 3px;
+  left: 50%;
+  position: absolute;
+  display: inline-block;
+  color: #000000;
+}
