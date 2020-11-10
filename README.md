@@ -1,2 +1,2 @@
-![Reading Input File](pic/logon.PNG)
-![Reading Input File](pic/homepage.PNG)
+![Reading Input File](screenshot/logon.PNG)
+![Reading Input File](screenshot/homepage.PNG)
